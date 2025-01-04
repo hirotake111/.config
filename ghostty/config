@@ -1,0 +1,29 @@
+# The syntax is "key = value". The whitespace around the
+# equals doesn't matter.
+background = 282c34
+foreground = ffffff
+
+font-size = 16
+
+# Comments start with a `#` and are only valid on their own line.
+# Blank lines are ignored!
+
+theme = "Aardvark Blue"
+
+keybind = ctrl+z=close_surface
+
+# Empty values reset the configuration to the default value
+# font-family =
+
+keybind = ctrl+b>c=new_tab
+keybind = ctrl+b>n=next_tab
+keybind = ctrl+b>p=previous_tab
+keybind = ctrl+b>t=toggle_quick_terminal
+
+keybind = ctrl+b>ctrl+v=new_split:right
+keybind = ctrl+b>ctrl+h=new_split:down
+keybind = ctrl+b>k=goto_split:top
+keybind = ctrl+b>j=goto_split:bottom
+keybind = ctrl+b>l=goto_split:right
+keybind = ctrl+b>h=goto_split:left
+
