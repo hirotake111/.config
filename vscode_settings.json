@@ -1,0 +1,539 @@
+{
+  "editor.fontFamily": "'JetBrains Mono', 'JetBrainsMono Nerd Font', Menlo, Monaco, 'Courier New', monospace, 'MesloLGS NF'",
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.inlayHints.enabled": "offUnlessPressed"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.inlayHints.enabled": "offUnlessPressed"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    // "editor.formatOnType": true
+  },
+  "go.useLanguageServer": true,
+  "go.toolsEnvVars": {
+    "GO111MODULE": "on"
+  },
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.inlayHints.enabled": "offUnlessPressed"
+    // "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  "[csharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "[toml]": {
+    "editor.formatOnSave": true
+  },
+  "[astro]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
+  "go.toolsManagement.autoUpdate": true,
+  "explorer.confirmDragAndDrop": false,
+  "html.format.templating": true,
+  "html.format.unformatted": "wbr,%",
+  "javascript.format.semicolons": "insert",
+  "json.schemas": [],
+  "workbench.colorTheme": "Monokai",
+  "C_Cpp.clang_format_fallbackStyle": "LLVM",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "o"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j"
+      ],
+      "after": [
+        "1",
+        "0",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "after": [
+        "1",
+        "0",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "v",
+        "H"
+      ],
+      "after": [
+        "v",
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "v",
+        "L"
+      ],
+      "after": [
+        "v",
+        "$",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
+    },
+    {
+      "before": [
+        "<C-h>",
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>",
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>",
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>",
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "I"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    {
+      "before": [
+        "K",
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "vscode-harpoon.editEditors"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "commands": [
+        "vscode-harpoon.addEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ],
+      "commands": [
+        "vscode-harpoon.gotoEditor1"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j"
+      ],
+      "commands": [
+        "vscode-harpoon.gotoEditor2"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "commands": [
+        "vscode-harpoon.gotoEditor3"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+        "vscode-harpoon.gotoEditor4"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "l"
+      ],
+      "commands": [
+        "workbench.actions.view.problems"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "f"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+        "p"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s",
+        "f"
+      ],
+      "commands": [
+        {
+          "command": "find-it-faster.findFiles"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "s",
+        "g"
+      ],
+      "commands": [
+        {
+          "command": "find-it-faster.findWithinFiles"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<tab>"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.nextEditor"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<S-Tab>"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.previousEditor"
+        }
+      ]
+    },
+    {
+      "before": [
+        "C-k"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.quickFix"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "n"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "redhat.telemetry.enabled": false,
+  "markdown-preview-enhanced.previewTheme": "solarized-dark.css",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "react-native-tools.showUserTips": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "rust-analyzer.debug.engine": "vadimcn.vscode-lldb",
+  "debug.allowBreakpointsEverywhere": true,
+  "rust-analyzer.debug.engineSettings": {},
+  "cSpell.ignoreWords": [
+    "Astro",
+    "Chakra",
+    "Deque",
+    "HRTB",
+    "Sharded",
+    "actix",
+    "astro",
+    "astrojs",
+    "availables",
+    "blazingly",
+    "chatgpt",
+    "chrono",
+    "daisyui",
+    "dataavailable",
+    "datetime",
+    "isbot",
+    "loadbalancing",
+    "nums",
+    "openai",
+    "pipeable",
+    "popleft",
+    "reqwest",
+    "rustls",
+    "sqlx",
+    "subarraya",
+    "tailwindcss",
+    "tinybandaid",
+    "upsert",
+    "webp",
+    "krustel"
+  ],
+  "update.showReleaseNotes": false,
+  "cSpell.userWords": [
+    "addrinfo",
+    "askama",
+    "clippy",
+    "cohttp",
+    "dotenv",
+    "dotenvy",
+    "errgroup",
+    "esbenp",
+    "Firestore",
+    "gomock",
+    "hasher",
+    "Hono",
+    "inorder",
+    "labstack",
+    "Leetcode",
+    "libc",
+    "LLDB",
+    "Menlo",
+    "nolint",
+    "nonblocking",
+    "oneshot",
+    "opam",
+    "ossp",
+    "posix",
+    "println",
+    "proto",
+    "psql",
+    "simplifile",
+    "splitn",
+    "sqlmock",
+    "struct",
+    "subarray",
+    "subarrays",
+    "syscall",
+    "templ",
+    "testutil",
+    "todos",
+    "usize"
+  ],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.associations": {
+    "*.json.golden": "json"
+  },
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "aws.telemetry": false,
+  "[roc]": {
+    "editor.formatOnSave": true,
+  },
+  "workbench.sideBar.location": "right",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
